@@ -1,0 +1,172 @@
+<html>
+<head>
+	<title>website</title>
+</head>
+<style>
+.header{
+display:flex;
+flex-direction:row;
+height:80px;
+justify-content:space-between;
+align-items:center;
+}
+.header h3,p{
+display:inline-block
+}
+.header p{
+margin-left:40px;
+color:black;
+}
+.header p:hover{
+color:orange;
+cursor:pointer;
+}
+.header button{
+margin-right:30px;
+}
+.home{
+display:flex;
+flex-direction:column;
+width:100%;
+height:80vh;
+justify-content:center;
+align-items:center;
+background-image:url(back1.jpeg);
+background-repeat: no-repeat;
+background-size:cover;
+animation:change 10s infinite ease-in-out;
+}
+@keyframes change{
+0%
+{background-image:url(back1.jpeg);}
+20%
+{background-image:url(back2.png);}
+40%
+{background-image:url(back3.webp);}
+60%
+{background-image:url(back2.png);}
+80%
+{background-image:url(back3.webp);}
+100%
+{background-image:url(back1.jpeg);}
+}
+.home h1,p{
+color:white;
+}
+.issues{
+display:grid;
+grid-template-columns: 200px 200px 200px 200px;
+column-gap:20px;
+margin-left:350px;
+margin-top:40px;
+HEIGHT:200PX;
+
+}
+.image{
+transition:all 1s;
+}
+.image:hover{
+transform:scale(1.1)
+}
+.eco p{
+color:black
+}
+.eco{
+display:grid;
+grid-template-columns: 200px 200px 200px 200px;
+column-gap:20px;
+margin-left:350px;
+margin-top:40px;
+HEIGHT:200PX;
+}
+</style>
+<body style="padding-bottom:1000px;">
+<div class="header">
+	<DIV>
+	<h3 style="color:green">NATURE.ed</h3>
+		<a href="#home"><p>HOME</p></a>
+		<a href="#causes"><p>ENVIRONMENTAL-ISSUES</p></a>
+		<a href="#eco"><p>ECO-FRIENDLY-PRACTICES</p></a>
+		<a href="#events"><p>ENVIRONMENTAL EVENTS</p></a>
+	</div>
+	<div>
+		<button>Donate us</button> <button>Sign UP</button>
+	</div>
+</div>
+<div class="home" id="home">
+	<h1 style="font-size:50px;">TACKLING THREATS THAT IMPACT THE EARTH.</h1>
+	<p>NATURE.ed work addresses direct and indirect threats-and the forces that drive them-to conserve biodiversity and reduce humanity's ecological footprint.</p>
+</div>
+<div style="margin-top:200px;">
+	<h1 style="text-align:center;text-decoration:underline;">ENVIRONMENTAL-ISSUES</h1>
+</div>
+<DIV class="issues" id="causes">
+	<a href="climate.html"><div class="image">
+		<div><img STYLE="WIDTH:200px;" src="climate-change-back.jpg"></div>
+		<h3 style="text-align:center;">CLIMATE-CHANGE</h3>
+	</div></a>
+
+	<a href="conservation.html"><div class="image">
+		<div><img STYLE="WIDTH:200px;" src="conversation back.jpg"></div>
+		<h3 style="text-align:center;">CONSERVATION</h3>
+	</div></a>
+
+	<a href="sustainable.html"><div class="image">
+		<div><img STYLE="WIDTH:100%;height:200px;" src="sustain-logo.jpg"></div>
+		<h3 style="text-align:center;">SUSTAINABLE LIFE</h3>
+	</div></a>
+
+	<a href="wildlife.html"><div class="image">
+		<div><img STYLE="WIDTH:200px;height:200px;" src="wildlife-back.jpg"></div>
+		<h3 style="text-align:center;">WILDLIFE-CONSERVATION</h3>
+	</div></a>
+</DIV>
+<h1 style="margin-top:200px;text-align:center;text-decoration:underline;">ECO-FRIENDLY PRACTICES</h1>
+<div class="eco" id="eco">
+		<a href="renewable.html"><div class="image">
+		<div><img STYLE="WIDTH:200px;height:200px;" src="eco-friendly-lifestyle-image-content.webp"></div>
+		<h3 style="text-align:center;"> Renewable Energy for Electricity</h3>
+	</div></a>
+
+	<a href="efficient.html"><div class="image">
+		<div><img STYLE="WIDTH:200px;height:200px" src="eco-friendly-lifestyle-image-content.webp"></div>
+		<h3 style="text-align:center;">energy efficient lighting</h3>
+	</div></a>
+
+	<a href="thermostats.html"><div class="image">
+		<div><img STYLE="WIDTH:100%;height:200px;" src="eco-friendly-lifestyle-image-content.webp"></div>
+		<h3 style="text-align:center;">smart thermostats</h3>
+	</div></a>
+
+	<a href="limit.html"><div class="image">
+		<div><img STYLE="WIDTH:200px;height:200px;" src="eco-friendly-lifestyle-image-content.webp"></div>
+		<h3 style="text-align:center;">limit food waste</h3>
+	</div></a>
+</div>
+<div>
+<h1  id="events"style="margin-top:200px;text-align:center;text-decoration:underline;">ENVIRONMENTAL EVENTS</h1>
+<P style="text-align:center;color:black"><b>World Wetlands Day</b> is celebrated
+every year on 2 February. This day
+marks the date of the adoption of the
+Convention on Wetlands on 2
+February 1971, in the Iranian city of
+Ramsar on the shores of the Caspian
+Sea</P><br>
+<pstyle="text-align:center;color:black"><b>Earth Day</b> was first observed in 1970 when 20 million took to the streets to protest against environmental degradation. Every year, April 22 is observed as Earth Day, an international event celebrated around the world to pledge support for environmental protection.</p>
+</div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
